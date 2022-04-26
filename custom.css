@@ -231,27 +231,12 @@
 
 
 /* sound files - colorize */
-#listing .item[aria-label$=".mp3"] div i {
-    color: #F47900;
-}
-#listing .item[aria-label$=".wav"] div i {
-    color: #F47900;
-}
-#listing .item[aria-label$=".flac"] div i {
-    color: #F47900;
-}
-#listing .item[aria-label$=".ogg"] div i {
-    color: #F47900;
-}
-#listing .item[aria-label$=".opus"] div i {
-    color: #F47900;
-}
-#listing .item[aria-label$=".m4a"] div i {
+#listing .item[data-type=audio] div i {
     color: #F47900;
 }
 
 /* video files - colorize */
-#listing .item[aria-label$=".mp4"] div i {
+#listing .item[data-type=video] div i {
     color: #F47900;
 }
 
